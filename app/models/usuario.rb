@@ -3,8 +3,10 @@ class Usuario < ActiveRecord::Base
                   :email, 
                   :endereco, 
                   :minicurso, 
-                  :nome, 
+                  :nome,
                   :palestras, 
                   :senha, 
                   :telefone
+				  
+  
 end
